@@ -1,0 +1,112 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* colors */
+  --bg: #121212;
+  --overlay: #8080d6;
+  --overlay-dark: #323267;
+  --text: #ffffff;
+  --bold: #f5ba09;
+  background: var(--bg);
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+.name-header {
+  font-family: "Roboto Slab", serif;
+}
+
+.navigation-link {
+  border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid var(--bold);
+  transition: 0.5s ease;
+}
+
+.main-container {
+  max-height: 313px;
+
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+.main-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-row h1 {
+  font-size: 5rem;
+}
+
+.main-row img {
+  width: auto;
+  height: 100vh;
+}
+
+.about {
+  background: var(--overlay);
+}
+
+li {
+  font-family: "Roboto Slab", serif;
+  font-size: 15px;
+  color: var(--text);
+}
+
+.biochem-content {
+  margin: 0px 100px 0px 100px;
+  max-width: 1080px;
+  align-items: center;
+  justify-content: center;
+}
+
+.headshot{
+  border-radius: 100%;
+}
+
+.centered {
+  align-items: center;
+  justify-content: center;
+}
+
+.section-header {
+  font-size: 72px;
+  text-align: center;
+}
+
+.abt-content {
+  padding: 16px;
+  font-size: 18px;
+}
+
+.course-list {
+  padding: 48px;
+  background-color: #4d4d9d;
+}
+
+.course-list a {
+  color: var(--text);
+}
+
+.top-center {
+  vertical-align: top;
+}
+
+#social-media {
+  background: var(--overlay-dark);
+}
+
+#social-media a {
+  color: var(--text);
+  margin: 0 10px;
+  border-width: 2px;
+  padding: 12px 15px;
+  font-size: 24px;
+}
